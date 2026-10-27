@@ -1,0 +1,33 @@
+name: Installation or download issue
+description: Report a problem with an official Ditfa release asset.
+body:
+  - type: markdown
+    attributes:
+      value: Please search existing issues first. Remove credentials and personal information from logs and screenshots. Report vulnerabilities privately using the Security tab.
+  - type: input
+    id: release
+    attributes:
+      label: Release tag and asset filename
+      placeholder: desktop-v1.0.0 / Ditfa_1.0.0_universal.dmg
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Operating system, version and architecture
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce and actual result
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant error message or redacted logs

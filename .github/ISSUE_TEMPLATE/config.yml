@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Account and product support
+    url: https://ditfa.com/contact
+    about: Get help with your Ditfa account or workspace.
+  - name: Report a security vulnerability privately
+    url: https://github.com/ditfa-dev/ditfa-releases/security/advisories/new
+    about: Keep vulnerability details and credentials out of public issues.
+  - name: Ditfa CLI bugs
+    url: https://github.com/ditfa-dev/ditfa-cli/issues/new/choose
+    about: Report terminal-agent issues in the CLI repository.
